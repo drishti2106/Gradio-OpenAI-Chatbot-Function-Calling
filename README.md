@@ -29,9 +29,11 @@ Getting Started
 
 Create a file called key.txt in the root directory.
 Paste your OpenAI API key into key.txt.
+
 Example content:
 text
 sk-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
 NEVER share your key.txt or your API key.
 
 3. Install Dependencies
@@ -42,6 +44,7 @@ NEVER share your key.txt or your API key.
 You can open and run:
 function-calling.ipynb to explore function calling
 APIbasics.ipynb (or similar) to launch the Gradio chatbot locally
+
 5. Use the Gradio Interface
 
 When you run the Gradio notebook, a link will appear in your terminal to open the chatbot in your browser.
@@ -51,7 +54,6 @@ Notes
 Your API key is read from key.txt. If this file is missing or invalid, API calls will fail.
 The provided notebooks are ready for experimentation; modify the function definitions or prompts for custom use cases.
 For git projects, add key.txt to your .gitignore.
-Security
 
 Keep your API key secret.
 Do NOT commit key.txt to version control.
